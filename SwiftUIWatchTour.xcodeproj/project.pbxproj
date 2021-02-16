@@ -18,6 +18,15 @@
 		46BAE6FC25DB45DB00EDA23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BAE6FB25DB45DB00EDA23A /* Assets.xcassets */; };
 		46BAE6FF25DB45DB00EDA23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BAE6FE25DB45DB00EDA23A /* Preview Assets.xcassets */; };
 		46BAE71325DB467D00EDA23A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 46BAE71225DB467D00EDA23A /* README.md */; };
+		46BAE72525DB483500EDA23A /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE71925DB483500EDA23A /* ColorModel.swift */; };
+		46BAE72625DB483500EDA23A /* WedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE71B25DB483500EDA23A /* WedgeShape.swift */; };
+		46BAE72725DB483500EDA23A /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE71D25DB483500EDA23A /* ChartsView.swift */; };
+		46BAE72825DB483500EDA23A /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE71E25DB483500EDA23A /* RingView.swift */; };
+		46BAE72925DB483500EDA23A /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE71F25DB483500EDA23A /* ColorsView.swift */; };
+		46BAE72A25DB483500EDA23A /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE72025DB483500EDA23A /* BarChartView.swift */; };
+		46BAE72B25DB483500EDA23A /* WedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE72125DB483500EDA23A /* WedgeView.swift */; };
+		46BAE72C25DB483500EDA23A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE72325DB483500EDA23A /* HeaderView.swift */; };
+		46BAE72D25DB483500EDA23A /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BAE72425DB483500EDA23A /* CapsuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +87,15 @@
 		46BAE70025DB45DB00EDA23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BAE70125DB45DB00EDA23A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		46BAE71225DB467D00EDA23A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46BAE71925DB483500EDA23A /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		46BAE71B25DB483500EDA23A /* WedgeShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WedgeShape.swift; sourceTree = "<group>"; };
+		46BAE71D25DB483500EDA23A /* ChartsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		46BAE71E25DB483500EDA23A /* RingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		46BAE71F25DB483500EDA23A /* ColorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		46BAE72025DB483500EDA23A /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		46BAE72125DB483500EDA23A /* WedgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WedgeView.swift; sourceTree = "<group>"; };
+		46BAE72325DB483500EDA23A /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		46BAE72425DB483500EDA23A /* CapsuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +141,9 @@
 		46BAE6F025DB45DA00EDA23A /* SwiftUIWatchTour WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				46BAE71825DB483500EDA23A /* Model */,
+				46BAE71A25DB483500EDA23A /* Shapes */,
+				46BAE71C25DB483500EDA23A /* Views */,
 				46BAE71725DB47BA00EDA23A /* Application */,
 				46BAE70125DB45DB00EDA23A /* PushNotificationPayload.apns */,
 				46BAE70025DB45DB00EDA23A /* Info.plist */,
@@ -150,6 +171,44 @@
 				46BAE6F925DB45DA00EDA23A /* ComplicationController.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		46BAE71825DB483500EDA23A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46BAE71925DB483500EDA23A /* ColorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46BAE71A25DB483500EDA23A /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				46BAE71B25DB483500EDA23A /* WedgeShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		46BAE71C25DB483500EDA23A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46BAE71D25DB483500EDA23A /* ChartsView.swift */,
+				46BAE71E25DB483500EDA23A /* RingView.swift */,
+				46BAE71F25DB483500EDA23A /* ColorsView.swift */,
+				46BAE72025DB483500EDA23A /* BarChartView.swift */,
+				46BAE72125DB483500EDA23A /* WedgeView.swift */,
+				46BAE72225DB483500EDA23A /* Supporting Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46BAE72225DB483500EDA23A /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				46BAE72325DB483500EDA23A /* HeaderView.swift */,
+				46BAE72425DB483500EDA23A /* CapsuleView.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +339,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BAE6F625DB45DA00EDA23A /* NotificationController.swift in Sources */,
+				46BAE72B25DB483500EDA23A /* WedgeView.swift in Sources */,
 				46BAE6F425DB45DA00EDA23A /* ContentView.swift in Sources */,
+				46BAE72925DB483500EDA23A /* ColorsView.swift in Sources */,
 				46BAE6FA25DB45DA00EDA23A /* ComplicationController.swift in Sources */,
+				46BAE72825DB483500EDA23A /* RingView.swift in Sources */,
+				46BAE72725DB483500EDA23A /* ChartsView.swift in Sources */,
 				46BAE6F225DB45DA00EDA23A /* SwiftUIWatchTourApp.swift in Sources */,
 				46BAE6F825DB45DA00EDA23A /* NotificationView.swift in Sources */,
+				46BAE72625DB483500EDA23A /* WedgeShape.swift in Sources */,
+				46BAE72525DB483500EDA23A /* ColorModel.swift in Sources */,
+				46BAE72A25DB483500EDA23A /* BarChartView.swift in Sources */,
+				46BAE72D25DB483500EDA23A /* CapsuleView.swift in Sources */,
+				46BAE72C25DB483500EDA23A /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
