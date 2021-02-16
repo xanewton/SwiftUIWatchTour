@@ -10,7 +10,23 @@ import SwiftUI
 
 struct CapsuleView: View {
     var body: some View {
-        Text("Capsule View")
+        HStack(alignment: .bottom, spacing: 2) {
+            VStack {
+                VStack(spacing: 2) {
+                    Text("99")
+                        .font(.system(size: 11))
+                        .foregroundColor(Color(.gray))
+                    Capsule()
+                        .frame(width: 10, height: 100)
+                        .foregroundColor(Color(.red))
+                }
+                Text("M")
+                    .font(.system(size: 12))
+                    .fontWeight(.black)
+                    .padding(.top, 0)
+            }
+        }
+        .padding(.top, 10)
     }
 }
 

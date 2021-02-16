@@ -10,7 +10,10 @@ import SwiftUI
 
 struct BarChartView: View {
     var body: some View {
-        Text("Bar Chart View")
+        VStack(spacing: 0) {
+            HeaderView(title: "BAR", subtitle: "CHART")
+            CapsuleView()
+        }
     }
 }
 
