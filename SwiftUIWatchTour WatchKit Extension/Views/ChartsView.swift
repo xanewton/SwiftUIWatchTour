@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ChartsView: View {
     var body: some View {
-        Text("Charts View")
+        TabView {
+            BarChartView()
+            WedgeChartView()
+            RingView()
+        }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
     }
 }
 
