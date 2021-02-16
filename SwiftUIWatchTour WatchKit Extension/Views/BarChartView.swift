@@ -12,7 +12,15 @@ struct BarChartView: View {
     var body: some View {
         VStack(spacing: 0) {
             HeaderView(title: "BAR", subtitle: "CHART")
-            CapsuleView()
+            HStack(alignment: .bottom) {
+                CapsuleView(value: 75, day: "S")
+                CapsuleView(value: 100, day: "M")
+                CapsuleView(value: 50, day: "T")
+                CapsuleView(value: 25, day: "W")
+                CapsuleView(value: 40, day: "T")
+                CapsuleView(value: 25, day: "F")
+                CapsuleView(value: 40, day: "S")
+            }
         }
     }
 }
